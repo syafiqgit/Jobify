@@ -13,10 +13,10 @@ export default function Logout() {
   return (
     <li onClick={logoutHandle}>
       <p className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-black dark:text-white">
-        <span className="inline-flex items-center justify-center h-16 w-16 text-lg text-black dark:text-white">
+        <span className="inline-flex items-center justify-center h-16 w-16 text-black dark:text-white">
           <LogOut />
         </span>
-        <span className="text-lg font-medium">Logout</span>
+        <span className="font-medium">Logout</span>
       </p>
     </li>
   );

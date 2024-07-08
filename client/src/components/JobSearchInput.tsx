@@ -11,7 +11,7 @@ export default function JobSearchInput({ search, onChange }: Props) {
         name="search"
         placeholder="Search job"
         defaultValue={search}
-        className="bg-white dark:bg-black h-10 px-5 pr-10 rounded-md text-sm focus:outline-none w-[28.4rem]z"
+        className="bg-white dark:bg-black h-10 px-5 pr-10 rounded-md text-sm focus:outline-none w-[29.4rem]"
         onChange={onChange}
       />
       <button type="submit" className="absolute right-0 top-0 mt-3 mr-4">
